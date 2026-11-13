@@ -1,0 +1,16 @@
+# Versions of the environment that produced the paper numbers (Python 3.12.3, CUDA toolkit 13.3).
+# torch / torchvision from the CUDA 13.2 wheel index:
+#   pip install torch==2.14.0 torchvision==0.29.0 --index-url https://download.pytorch.org/whl/cu132
+torch==2.14.0
+torchvision==0.29.0
+numpy==2.5.2
+scipy==1.18.1
+pandas==3.0.6
+scikit-learn==1.9.1
+pycocotools==2.0.11
+pillow==12.3.0
+mpmath==1.3.0          # imported by the SIREN Deformable DETR model code (models/vmf.py)
+# Built from source, not from PyPI (see README.md, "Setup"):
+#   detectron2 0.6          -- editable install of third_party/detectron2 (commit a2f4a877); pulls fvcore 0.1.5.post20221221,
+#                              iopath 0.1.9, yacs, termcolor, ...
+#   MultiScaleDeformableAttention 1.0 -- third_party/siren/detr/models/ops (SIREN commit 3bb2a6a6 + siren_torch2_msda.patch)
