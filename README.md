@@ -1,4 +1,4 @@
-# $\color{#800080}{PLUM}% (Pooled, Leveled, Unit-norm Mahalanobis)
+# $\color{#800080}{PLUM}$ (Pooled, Leveled, Unit-norm Mahalanobis)
 
 | Paper | Code |
 |---|---|
